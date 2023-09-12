@@ -85,5 +85,9 @@ order by total_de_vendas asc
 limit 1;
 
 --EXERCICIO19
+select nome, count(matriculas.id) as quantidade_de_matriculas
+from alunos
+left join matriculas on aluno_id = alunos.id
+group by nome;
 
 --EXERCICIO20
