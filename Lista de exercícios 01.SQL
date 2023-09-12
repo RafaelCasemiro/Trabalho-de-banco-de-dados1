@@ -48,6 +48,9 @@ group by autores.nome
 having total_de_livros > 2;
 
 --EXERCICIO11
+select livros.titulo, autores.nome from livros 
+inner join autores
+where autor_id = autores.id;
 
 --EXERCICIO12
 
