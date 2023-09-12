@@ -30,6 +30,9 @@ from matriculas
 group by curso;
 
 --EXERCICIO8
+select produto, avg(receita) as média_das_receitas
+from vendas
+group by produto;
 
 --EXERCICIO9
 
