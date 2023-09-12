@@ -14,6 +14,9 @@ inner join matriculas on matriculas.curso = 'Engenharia de Software'
 and matriculas.aluno_id = alunos.id;
 
 --EXERCICIO5
+select produto, sum(receita) as total_de_receitas
+from vendas
+group by produto;
 
 --EXERCICIO6
 
