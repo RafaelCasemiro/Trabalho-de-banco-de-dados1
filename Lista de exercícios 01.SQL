@@ -66,6 +66,8 @@ select matriculas.curso, alunos.nome from matriculas
 right join alunos on aluno_id = alunos.id;
 
 --EXERCICIO15
+select alunos.nome, matriculas.curso from alunos
+inner join matriculas on alunos.id = aluno_id;
 
 --EXERCICIO16
 
