@@ -7,3 +7,38 @@ select nome from autores where (nascimento < '1900-01-01');
 --EXERCICIO3
 select livros.titulo from livros
 inner join autores on autores.nome = 'J.K. Rowling';
+
+--EXERCICIO4
+select alunos.nome from alunos
+inner join matriculas on matriculas.curso = 'Engenharia de Software' 
+and matriculas.aluno_id = alunos.id;
+
+--EXERCICIO5
+
+--EXERCICIO6
+
+--EXERCICIO7
+
+--EXERCICIO8
+
+--EXERCICIO9
+
+--EXERCICIO10
+
+--EXERCICIO11
+
+--EXERCICIO12
+
+--EXERCICIO13
+
+--EXERCICIO14
+
+--EXERCICIO15
+
+--EXERCICIO16
+
+--EXERCICIO17
+
+--EXERCICIO19
+
+--EXERCICIO20
