@@ -78,6 +78,11 @@ order by total_de_livros desc
 limit 1;
 
 --EXERCICIO17
+select produto, sum(receita) as total_de_vendas
+from vendas
+group by produto
+order by total_de_vendas asc
+limit 1;
 
 --EXERCICIO19
 
