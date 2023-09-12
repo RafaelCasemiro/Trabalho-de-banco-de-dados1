@@ -41,6 +41,11 @@ group by produto
 having maior_receita > 10000;
 
 --EXERCICIO10
+select autores.nome, count(livros.id) as total_de_livros
+from autores
+left join livros on autores.id = livros.autor_id
+group by autores.nome
+having total_de_livros > 2;
 
 --EXERCICIO11
 
