@@ -53,6 +53,9 @@ inner join autores
 where autor_id = autores.id;
 
 --EXERCICIO12
+select alunos.nome, matriculas.curso from alunos
+inner join matriculas
+where aluno_id = alunos.id;
 
 --EXERCICIO13
 
