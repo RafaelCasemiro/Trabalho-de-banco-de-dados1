@@ -35,6 +35,10 @@ from vendas
 group by produto;
 
 --EXERCICIO9
+select produto, sum(receita) as maior_receita
+from vendas
+group by produto
+having maior_receita > 10000;
 
 --EXERCICIO10
 
